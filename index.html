@@ -118,7 +118,7 @@
             -webkit-font-smoothing: antialiased;
             background-color: rgb(13, 17, 23);
             color: rgb(121, 135, 144);
-            font-family: 'Inter';
+            font-family: 'Inter', sans-serif;
             margin: 0;
         }
 
@@ -457,6 +457,11 @@
         .site-footer-content-box:last-child {
             padding-right: 100px;
         }
+
+        .site-footer a {
+            color: inherit;
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -465,7 +470,7 @@
         <header class="top-bar">
             <div class="top-bar-content">
                 <div class="top-bar-logo-wrapper">
-                    <img src="logo.png" class="top-bar-logo" alt="logo">
+                    <img src="logo.png" class="top-bar-logo" alt="logo CyberCorp">
                     <h1>CyberCorp</h1>
                 </div>
 
@@ -491,7 +496,7 @@
             </nav>
 
             <figure class="hero-image">
-                <img src="pozadi.jpg" alt="pozadi">
+                <img src="pozadi.jpg" alt="pozadi nocni mesto">
                 <div class="hero-text">
                     <p>2126 &copy; CyberCorp - všechna práva zašifrována</p>
                 </div>
@@ -564,8 +569,8 @@
 
             <div class="site-footer-content-box">
                 <h4>Kontakt</h4>
-                <p>info@cybercorp.net</p>
-                <p>+676 767 676</p>
+                <p><a href="mailto:info@cybercorp.net">info@cybercorp.net</a></p>
+                <p><a href="tel:+676767676">+676 767 676</a></p>
             </div>
 
             <div class="site-footer-content-box">
